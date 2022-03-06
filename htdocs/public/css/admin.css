@@ -1,0 +1,22 @@
+body {
+  /* background-color: #566; */
+  background: linear-gradient(
+    to right,
+    rgb(187, 36, 61) 0%,
+    pink 50%,
+    rgb(175, 219, 219) 50%,
+    #03ecd5 100%
+  );
+  justify-content: center;
+  align-items: center;
+}
+.img-top {
+  width: 10%;
+  height: 10%;
+}
+.hpf {
+  margin-top: 30px;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: xxx-large;
+}

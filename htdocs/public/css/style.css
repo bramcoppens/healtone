@@ -1,0 +1,247 @@
+body {
+  /* background-color: #566; */
+  background: linear-gradient(
+    to right,
+    rgb(187, 36, 61) 0%,
+    pink 50%,
+    rgb(175, 219, 219) 50%,
+    #03ecd5 100%
+  );
+  justify-content: center;
+  align-items: center;
+}
+.hpf {
+  margin-top: 30px;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: xxx-large;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  color: black;
+  font-size: 20px;
+}
+h5 {
+  font-size: 40px;
+  margin-left: 600px;
+  margin-top: 300px;
+  color: black;
+}
+.nextPage {
+  color: blue;
+  background-color: black;
+  margin-left: 600px;
+  font-size: 40px;
+}
+.navbar {
+  padding: 0;
+}
+.homeImages {
+  float: right;
+  height: 1500px;
+}
+
+.text {
+  margin-top: 100px;
+}
+
+.opn {
+  background-color: rgba(255, 255, 255, 0.658);
+  font-size: 29px;
+}
+
+.cata {
+  height: 300px;
+}
+
+.imgs {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.imag {
+  background-color: rgba(255, 255, 255, 0.658);
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.prod {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.prot {
+  text-align: center;
+  background-color: rgb(163, 67, 67);
+}
+
+.prot2 {
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(163, 67, 67);
+}
+
+.prods {
+  width: 400px;
+  height: 450px;
+  margin-left: 700px;
+}
+
+.card-img-top {
+  height: 300px;
+  width: 300px;
+}
+
+.images {
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+.pull-right img-thumbnail {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.header-row {
+  margin-top: 20px;
+}
+
+.banner-img {
+  margin-bottom: 20px;
+}
+
+.product-img {
+  width: 70%;
+}
+
+.clearfix {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  background-color: rgb(175, 219, 219);
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.size {
+  font-size: 30px;
+  margin-top: 300px;
+  color: darkred;
+}
+
+.navColor .nav-link {
+  color: black;
+  font-size: 25px;
+}
+
+.pull-right img-thumbnail {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.banner-img {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: lightblue;
+}
+.nav-item {
+  font-family: "Gill Sans";
+  font-style: initial;
+  font-size: 14px;
+}
+
+.product-img {
+  width: 70%;
+}
+
+.move-right {
+  margin-left: 410px;
+}
+
+.weight {
+  /* max-width: 70%; */
+  height: 110%;
+  width: 120%;
+  margin-left: -370px;
+}
+.card-img {
+  width: 30%;
+  height: 10%;
+  text-align: center;
+}
+.review {
+  text-align: left;
+}
+.imag {
+  text-align: left;
+  margin-top: 10%;
+}
+.homeImage {
+  text-align: center;
+  margin-top: 10%;
+  width: 500px;
+}
+.product {
+  text-align: center;
+}
+.profileview {
+  margin-left: 600px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.login-card {
+  margin-top: 10%;
+  text-align: center;
+  width: 500px;
+  margin-left: 700px;
+}
